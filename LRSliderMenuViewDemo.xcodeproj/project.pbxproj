@@ -15,6 +15,13 @@
 		FC55F47120D3B6C400F91722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F47020D3B6C400F91722 /* main.m */; };
 		FC55F47B20D3B6C400F91722 /* LRSliderMenuViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F47A20D3B6C400F91722 /* LRSliderMenuViewDemoTests.m */; };
 		FC55F48620D3B6C400F91722 /* LRSliderMenuViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F48520D3B6C400F91722 /* LRSliderMenuViewDemoUITests.m */; };
+		FC55F49A20D3B73E00F91722 /* LRSliderMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F49720D3B73D00F91722 /* LRSliderMenuItem.m */; };
+		FC55F49B20D3B73E00F91722 /* LRSliderMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F49920D3B73D00F91722 /* LRSliderMenuView.m */; };
+		FC55F49E20D3B97500F91722 /* SliderMenuDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F49D20D3B97500F91722 /* SliderMenuDemoViewController.m */; };
+		FC55F4A120D3BAAA00F91722 /* UIFont+PingFang.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F4A020D3BAAA00F91722 /* UIFont+PingFang.m */; };
+		FC55F4A520D3C54600F91722 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F4A420D3C54600F91722 /* UITableView+FDTemplateLayoutCell.m */; };
+		FC55F4A820D3C55C00F91722 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F4A720D3C55C00F91722 /* InfoTableViewCell.m */; };
+		FC55F4AB20D3C5EB00F91722 /* InfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC55F4AA20D3C5EA00F91722 /* InfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,21 @@
 		FC55F48120D3B6C400F91722 /* LRSliderMenuViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRSliderMenuViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC55F48520D3B6C400F91722 /* LRSliderMenuViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRSliderMenuViewDemoUITests.m; sourceTree = "<group>"; };
 		FC55F48720D3B6C400F91722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC55F49620D3B73D00F91722 /* LRSliderMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSliderMenuItem.h; sourceTree = "<group>"; };
+		FC55F49720D3B73D00F91722 /* LRSliderMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSliderMenuItem.m; sourceTree = "<group>"; };
+		FC55F49820D3B73D00F91722 /* LRSliderMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSliderMenuView.h; sourceTree = "<group>"; };
+		FC55F49920D3B73D00F91722 /* LRSliderMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSliderMenuView.m; sourceTree = "<group>"; };
+		FC55F49C20D3B97500F91722 /* SliderMenuDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderMenuDemoViewController.h; sourceTree = "<group>"; };
+		FC55F49D20D3B97500F91722 /* SliderMenuDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderMenuDemoViewController.m; sourceTree = "<group>"; };
+		FC55F49F20D3BAAA00F91722 /* UIFont+PingFang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+PingFang.h"; sourceTree = "<group>"; };
+		FC55F4A020D3BAAA00F91722 /* UIFont+PingFang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PingFang.m"; sourceTree = "<group>"; };
+		FC55F4A320D3C54600F91722 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		FC55F4A420D3C54600F91722 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		FC55F4A620D3C55C00F91722 /* InfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
+		FC55F4A720D3C55C00F91722 /* InfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
+		FC55F4A920D3C5EA00F91722 /* InfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoModel.h; sourceTree = "<group>"; };
+		FC55F4AA20D3C5EA00F91722 /* InfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoModel.m; sourceTree = "<group>"; };
+		FC55F4AC20D3C65200F91722 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +123,22 @@
 		FC55F46020D3B6C200F91722 /* LRSliderMenuViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FC55F4AC20D3C65200F91722 /* Header.h */,
+				FC55F4A220D3C54600F91722 /* UITableView+FDTemplateLayoutCell */,
+				FC55F49F20D3BAAA00F91722 /* UIFont+PingFang.h */,
+				FC55F4A020D3BAAA00F91722 /* UIFont+PingFang.m */,
+				FC55F49520D3B73D00F91722 /* KYASliderMenuView */,
 				FC55F46120D3B6C200F91722 /* AppDelegate.h */,
 				FC55F46220D3B6C200F91722 /* AppDelegate.m */,
 				FC55F46420D3B6C200F91722 /* ViewController.h */,
 				FC55F46520D3B6C200F91722 /* ViewController.m */,
 				FC55F46720D3B6C200F91722 /* Main.storyboard */,
+				FC55F49C20D3B97500F91722 /* SliderMenuDemoViewController.h */,
+				FC55F49D20D3B97500F91722 /* SliderMenuDemoViewController.m */,
+				FC55F4A620D3C55C00F91722 /* InfoTableViewCell.h */,
+				FC55F4A720D3C55C00F91722 /* InfoTableViewCell.m */,
+				FC55F4A920D3C5EA00F91722 /* InfoModel.h */,
+				FC55F4AA20D3C5EA00F91722 /* InfoModel.m */,
 				FC55F46A20D3B6C400F91722 /* Assets.xcassets */,
 				FC55F46C20D3B6C400F91722 /* LaunchScreen.storyboard */,
 				FC55F46F20D3B6C400F91722 /* Info.plist */,
@@ -130,6 +163,26 @@
 				FC55F48720D3B6C400F91722 /* Info.plist */,
 			);
 			path = LRSliderMenuViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		FC55F49520D3B73D00F91722 /* KYASliderMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				FC55F49620D3B73D00F91722 /* LRSliderMenuItem.h */,
+				FC55F49720D3B73D00F91722 /* LRSliderMenuItem.m */,
+				FC55F49820D3B73D00F91722 /* LRSliderMenuView.h */,
+				FC55F49920D3B73D00F91722 /* LRSliderMenuView.m */,
+			);
+			path = KYASliderMenuView;
+			sourceTree = "<group>";
+		};
+		FC55F4A220D3C54600F91722 /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC55F4A320D3C54600F91722 /* UITableView+FDTemplateLayoutCell.h */,
+				FC55F4A420D3C54600F91722 /* UITableView+FDTemplateLayoutCell.m */,
+			);
+			path = "UITableView+FDTemplateLayoutCell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +316,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC55F46620D3B6C200F91722 /* ViewController.m in Sources */,
+				FC55F4A520D3C54600F91722 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				FC55F49B20D3B73E00F91722 /* LRSliderMenuView.m in Sources */,
 				FC55F47120D3B6C400F91722 /* main.m in Sources */,
+				FC55F4A820D3C55C00F91722 /* InfoTableViewCell.m in Sources */,
+				FC55F4AB20D3C5EB00F91722 /* InfoModel.m in Sources */,
+				FC55F49E20D3B97500F91722 /* SliderMenuDemoViewController.m in Sources */,
+				FC55F49A20D3B73E00F91722 /* LRSliderMenuItem.m in Sources */,
+				FC55F4A120D3BAAA00F91722 /* UIFont+PingFang.m in Sources */,
 				FC55F46320D3B6C200F91722 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

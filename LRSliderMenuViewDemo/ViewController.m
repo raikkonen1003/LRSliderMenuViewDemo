@@ -7,12 +7,18 @@
 //
 
 #import "ViewController.h"
+#import "SliderMenuDemoViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (IBAction)toggleAction:(id)sender {
+    
+    SliderMenuDemoViewController *vc = [[SliderMenuDemoViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
